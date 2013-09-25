@@ -7,16 +7,16 @@ Dependencies
 ------------
 
 * Ruby 1.9.2 or newer
-* [Mechanize](https://github.com/sparklemotion/mechanize)
+* The Ruby [Mechanize](https://github.com/sparklemotion/mechanize) gem
 * An office at the [IMDEA Software Institute](http://www.software.imdea.org)
 
 Usage
 -----
 
     blinds.rb [options]
-        -r, --room NUM                   Set the room no. to N
-        -b, --blinds NUM                 Set the blinds to N
-        -t, --temp NUM                   Set the temperature to N
+        -r, --room ROOM                  Set the ROOM number
+        -b, --blinds NUM                 Set the blinds to NUM
+        -t, --temp TEMP                  Set the TEMPerature
 
 Author
 ------
