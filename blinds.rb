@@ -82,7 +82,7 @@ class Controls
     password = nil
     
     cfg = {}
-    ['~','.'].each do |path|
+    ['.', Dir.home, Dir.pwd, File.dirname(__FILE__)].each do |path|
       cfgfile = File.join(path, '.blinds.yml')
       if File.exists? cfgfile then
         # puts "Loading configuration file #{cfgfile}"
