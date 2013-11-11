@@ -29,8 +29,8 @@ Configuration file
 ------------------
 
 `blinds.rb` looks for `.blinds.yml` in your home directory `~` and your current
-directory `.`.  If `.blinds.yml` exists, `blinds.rb` will read your USERNAME,
-PASSWORD, and ROOM.  `.blinds.yml` has the following format:
+directory `.`.  If `.blinds.yml` exists, `blinds.rb` will read your `USERNAME`,
+`PASSWORD`, and `ROOM`.  `.blinds.yml` has the following format:
 
     username: USERNAME
     password: PASSWORD
